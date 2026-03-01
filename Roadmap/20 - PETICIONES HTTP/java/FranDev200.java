@@ -36,8 +36,8 @@ public class FranDev200 {
 
             HttpResponse<String> respuesta =  client.send(request, HttpResponse.BodyHandlers.ofString());
 
-            //System.out.println("Codigo de respuesta: " + respuesta.statusCode());
-            //System.out.println("Respuesta:\n" + respuesta.body());
+            System.out.println("Codigo de respuesta: " + respuesta.statusCode());
+            System.out.println("Respuesta:\n" + respuesta.body());
 
         }catch (InterruptedException e){
             e.getMessage();
