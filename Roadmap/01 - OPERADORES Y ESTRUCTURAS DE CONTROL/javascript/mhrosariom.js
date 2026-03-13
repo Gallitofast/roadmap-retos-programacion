@@ -20,6 +20,4 @@ let isNull = null;
 let bigInt = 323434245435345345342342346756n;
 let simbol = Symbol('Unico');
 
-let language = 'JavaScript';
-
-console.log(`!Hola, ${language}¡`);
+console.log('!Hola, JavaScript');
