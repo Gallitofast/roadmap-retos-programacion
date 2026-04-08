@@ -2,7 +2,7 @@
 
 # Diferentes maneras de escribir comentarios
 
-# Comentqario Una linea 
+# Comentario Una linea 
 
 """
 Comentario 
