@@ -1,20 +1,41 @@
-# 00-Python
-# URL del sitio oficial de Python https://www.python.org/
+# WEB OFICIAL
+# Sitio web oficial de Python: https://www.python.org/
 
-# Esto es un comentario en una linea
+# COMENTARIOS
+# En Python tenemos dos tipos de comentarios:
+# - Comentarios de una sola línea (#): Se utilizan para explicar partes del código.
+# - Comentarios de varias líneas ("""): Se utilizan para explicar bloques de código o documentar funciones.
+"""
+Esto es un comentario
+de prueba
+escritor en varias
+líneas.
+"""
 
-""""Esto es un comentario
-en varias lineas de codigo mientras 
-no se asigne a una variable"""
+# VARIABLES Y CONSTANTES
+"""
+- Variables: En Python para declarar una variable simplemente debemos escribir el nombre de la
+             variable y asignarle un valor de inicio. Siempre se deben inicializar las variables
+             si se quiere declarar una variable no inicializada se puede usar la palabra 'None'
+             Por convención se utiliza la nomenclatura snake_case.
+"""
+mi_variable_inicializada = 37
+mi_variable_no_inicializada = None
 
-mi_nombre = "Alexeis" #Variable que almacena un string
-COLOR_PELO = "Rubio" #Constante que almacena un string
+"""
+- Constantes: En Python no existen las constantes como tal, pero por convención, si queremos
+              declarar una constante debemos escribirla en mayúsculas. Pero esto es una simple
+              convención, no hay nada que indique a Python que ese dato sea inmutable y, por
+              tanto, constante.
+"""
+MI_CONSTANTE = 40
 
-# Datos primitivos
-mi_string_var = "Cadeba de texto"   #Variable que almacena un string
-mi_numero_entero = 50               #Variable que almacena un numero entero
-mi_numero_flotante = 12.8           #Variable que almacena un numero flotante
-estudio_programacion = True         #Variable que almacena un valor booleano
+# DATOS PRIMITIVOS
+# En Python tenemos 4 tipos de datos primitivos
+mi_int = 4215                               # Integer (int): Almacena números sin decimales.
+mi_float = 3.14159                          # Float (float): Almacena números con decimales.
+mi_bool = True                              # Boolean (bool): Almacena datos lógicos (True o False).
+mi_str = 'Esto es una cadena o String.'     # String (str): Almacena una cadena de caracteres (o un carácter único).
 
-#print() es una funcion build-in que imprime por consola el parametro que se le pase
-print("Hola, Python")
+# IMPRESIÓN POR CONSOLA
+print('¡Hola, Python!')
