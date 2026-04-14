@@ -7,7 +7,9 @@ public class HypeJF {
         /* comentario
          * de
          * varias
-         * líneas*/
+         * líneas
+         * en
+         * java*/
 
         /** comentario
          * de
